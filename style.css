@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|PT+Serif|ZCOOL+QingKe+HuangYou');
+/*font-family: 'ZCOOL QingKe HuangYou', cursive;
+font-family: 'PT Serif', serif;
+font-family: 'Dancing Script', cursive;*/
+
+*{margin:0;padding:0;}
+body{font-family:sans-serif, Arial !important; transition:all 0.5s ease; -webkit-transition:all 0.5s ease; -moz-transition:all 0.5s ease;}
+body html{height:100%;}
+img{max-width:100%}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+h1, h2, h3, h4, h5, h6{font-weight:normal; margin-top:10px; margin-bottom:10px;}
+p{line-height:150%; margin-bottom:2em; margin-left:5px;}
+.container_full{width:100%; height:auto;}
+.container{width:960px; margin:0 auto; display:block;}
+.fix{overflow:hidden;}
+.aligncenter{display:block; margin:0 auto;}
+.floatleft{float:left;}
+.floatright{float:right;}
+/*------------------------------*/
+.under_header{background:url(img/12.png) no-repeat; background-size:cover; height:450px;}
+.menu{background:#000; min-height:45px;position:fixed; width:960px;}
+.menu ul{font-family: 'Dancing Script', cursive; font-size:20px;}
+.menu ul li{list-style:none; float:left; position:relative; background:#000;}
+.menu ul li:hover{border-bottom:2px solid #CADFF9;}
+.menu ul li a{text-decoration:none;padding:5px; 10px; display:block; font-size:20px;transition:all 0.5s ease; -webkit-transition:all 0.5s ease; -moz-transition:all 0.5s ease; color:#fff;}
+.menu ul li a:hover{color:#05F654;}
+
+.menu ul li ul{position:absolute; left:-9999999px;}
+.menu ul li:hover ul{left:0;top:31px;}
+.menu ul li ul li{width:140px;}
+
+
+.menu2{background:#000; min-height:45px; margin-top:405px; opacity:0.7;width:960px;}
+.menu2 ul{font-family: 'Dancing Script', cursive; font-size:20px;}
+.menu2 ul li{list-style:none; float:left;}
+.menu2 ul li a{text-decoration:none;padding:5px; 10px; display:block;color:#fff; font-size:20px;transition:all 0.5s ease; -webkit-transition:all 0.5s ease; -moz-transition:all 0.5s ease;}
+.menu2 ul li a:hover{color:#05F654;}
+
+.content_wrapper input{width:150px; height:20px; border-radius:5px; margin-left:5px; }
+.content_wrapper input[type="submit"]{width:52px; height:26px;background-color:green; color:#fff; margin-top:3px;}
+.content_wrapper p,.content_wrapper a{font-family:'ZCOOL QingKe HuangYou', cursive;}
+.left_content{width:200px; background-color:#F5F8A4;padding-bottom:2px;}
+.left_content h2,.right_content h2{background-color:green; color:#fff;font-size:20px; padding:5px; font-family: 'PT Serif', serif;}
+.middel_content{width:560px; background-color:#E3D2E5;padding-bottom:5px;}
+.middel_content p{margin-left:5px;}
+.middel_content h2{margin-left:5px; font-family: 'PT Serif', serif;
+background:#f7f5e3;}
+.middel_content blockquote{background:#c6de6b;}
+.right_content{width:200px; background-color:#F5F8A4; padding-bottom:2px;}
+
+.left_content ul,.right_content ul{padding:5px;}
+.left_content ul li,.right_content ul li{list-style:none;}
+.left_content ul li a,.right_content ul li a{color:#0E346E;transition:all 0.6s; -webkit-transition:all 0.6s; -moz-transition:all 0.6s;}
+.left_content ul li a:hover,.right_content ul li a:hover{color:#B20FF2;}
+.left_content p,.right_content p{margin-bottom:0px;}
+
+.undrmnu_srch input{width:140px; height:20px; border:1px solid #ababab; border-radius:5px;}
+.undrmnu_srch input[type="submit"]{width:50px; height:20px;background-color:#ECFBD7;color:#000;}
+
+.footer_part{background-color:#152338;padding-bottom:10px;}
+.footer_part h2{color:#ffffff;font-family: 'PT Serif', serif; padding-left:20px;border-bottom:3px solid #ecadad;}
+.footer_part a{color:#dece90; margin-left:5px;}
+.footer_part ul li{list-style:none;}
+.footer_part ul li a:hover{color:#3ede73;}
+.footer_left{width:300px;margin-right:15px;}
+.footer_middel{width:300px;margin-right:15px;}
+.footer_right{width:328px;}
+.footer_right ul li{float:left; margin-left:5px;}
+.footer_right ul li img{
+     width:30px;
+     height:30px;
+}
+
+#copy_section {background-color:#b5ead6; padding:5px; text-align:center;
+height:30px;}
+
+	 
+
+/*
+.undrmnu_srch{padding-top:0; position:relative; margin-bottom:30px; margin-top:25px;}
+.undrmnu_srch input{width:200px; height:40px; border:1px solid #ababab; border-radius:5px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding:0 10px; background:#fff; font:normal 14px Arial,Helvetica,sans-serif;color#1f5A9D;}
+.undrmnu_srch input[type="submit"]{width:27px; height:27px; cursor:pointer; text-indent:-99999px; border:none; position:absolute; right:45px;top:6px;}*/
